@@ -1,0 +1,24 @@
+/* Scope only to our dropdown */
+.dash-dropdown .Select-control {
+  background: #222 !important;
+  border: 1px solid #444 !important;
+  box-shadow: none !important;
+}
+.dash-dropdown .Select-placeholder,
+.dash-dropdown .Select-value-label {
+  color: #fff !important;
+}
+.dash-dropdown .Select-menu-outer {
+  background: #222 !important;
+  border: 1px solid #444 !important;
+}
+.dash-dropdown .Select-option {
+  background: #222 !important;
+  color: #fff !important;
+}
+.dash-dropdown .Select-option.is-focused {
+  background: #333 !important;
+}
+.dash-dropdown .Select-option.is-selected {
+  background: #0062cc !important;
+}
