@@ -5,7 +5,7 @@ AutoNav platform application for running the on-device stack that drives the RC 
 ## TL;DR
 - `python app.py` starts the UI and runner, `python controller.py` runs the headless controller.
 - Visual Place Recognition (VPR) **embeddings are not included**. You must regenerate them and drop the file in `assets/` before running. See **VPR embeddings** below.
-- Folders: `agents/` learned policies, `systems/` higher level subsystems, `drivers/` hardware and IO shims, `assets/` configs and data.
+- Folders: `agents/` learned policies, `systems/` higher level subsystems, `drivers/` hardware and IO, `assets/` configs and data.
 
 ## Why this repo
 This repo is the thin orchestration layer that glues your subsystems together:
@@ -25,7 +25,7 @@ controller.py# core control loop and subsystem wiring
 
 ## Requirements
 - Python 3.10 or newer
-- Install to deps to global python installation as GPIO libs need root access/
+- Install to deps to global python installation as GPIO libs need root access.
 
 ## VPR embeddings
 VPR region embeddings are ~90 MB so they are not checked into Git. To run this repo you must provide them locally.
